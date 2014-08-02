@@ -1,0 +1,16 @@
+import java.util.logging.Logger;
+public class LogTest {
+	  private static Logger LOGGER = Logger.getLogger("InfoLogging");
+
+	public static void main(String[] args) {
+		LogTest logTest = new LogTest();
+		
+		
+	}
+	private void doSomething  () {
+		LOGGER.fine("helloFine");
+		LOGGER.warning("warning");
+
+	}
+
+}

@@ -1,0 +1,34 @@
+appconfig1 = foo
+appconfig2 = bar
+
+# Logging
+handlers = java.util.logging.FileHandler, java.util.logging.ConsoleHandler, smtphandler.SMTPHandler
+.level = ALL
+
+# File Logging
+java.util.logging.FileHandler.pattern = %h/myApp.log
+java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
+java.util.logging.FileHandler.level = SEVERE
+
+# Console Logging
+java.util.logging.ConsoleHandler.level = WARNING
+
+#Default MailHandler settings.
+
+java.util.logging.ConsoleHandler.level=FINEST
+java.util.logging.ConsoleHandler.formatter=java.util.logging.SimpleFormatter
+smtphandler.SMTPHandler.level=WARNING
+smtphandler.SMTPHandler.smtpHost=smtp.gmail.com
+smtphandler.SMTPHandler.to=teodorvulchev@gmail.com
+smtphandler.SMTPHandler.from=teodorvulchev@gmail.com
+smtphandler.SMTPHandler.subject=[SMTPHandler] Application message
+smtphandler.SMTPHandler.bufferSize=512
+smtphandler.SMTPHandler.formatter=java.util.logging.SimpleFormatter
+smtphandler.SMTPHandler.port = 465;
+smtphandler.SMTPHandler.auth = true;
+smtphandler.SMTPHandler.smtpUsername = teodorvulchev;
+smtphandler.SMTPHandler.smtpPassword = aromapure1e;
+
+
+
+

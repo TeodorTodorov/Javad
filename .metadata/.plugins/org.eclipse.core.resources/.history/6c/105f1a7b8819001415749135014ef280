@@ -1,0 +1,20 @@
+appconfig1 = foo
+appconfig2 = bar
+
+# Logging
+handlers = java.util.logging.FileHandler, java.util.logging.ConsoleHandler,  com.sun.mail.util.logging.MailHandler
+.level = ALL
+
+# File Logging
+java.util.logging.FileHandler.pattern = %h/myApp.log
+java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
+java.util.logging.FileHandler.level = SEVERE
+
+# Console Logging
+java.util.logging.ConsoleHandler.level = WARNING
+
+#Default MailHandler settings.
+      com.sun.mail.util.logging.MailHandler.mail.smtp.host = my-mail-server
+      com.sun.mail.util.logging.MailHandler.mail.to = teodorvulchev@example.com
+      com.sun.mail.util.logging.MailHandler.level = WARNING
+      com.sun.mail.util.logging.MailHandler.verify = local
