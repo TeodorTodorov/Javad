@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories-view>
+	<repository id=":pserver:anonymous@smtphandler.cvs.sourceforge.net:/cvsroot/smtphandler">
+		<module path="smtphandler" lastAcessTime="1406905202581">
+			<tag name="SMTPHANDLER_0_7" type="version"/>
+			<tag name="SMTPHANDLER_0_5" type="version"/>
+		</module>
+		<module path="/" lastAcessTime="1406905206538">
+		</module>
+	</repository>
+</repositories-view>

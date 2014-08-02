@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!-- $Header: /cvsroot/smtphandler/smtphandler/src/site/xdoc/related.xml,v 1.1 2006/05/13 01:24:45 sullis Exp $ -->
+<document>
+  <properties>
+     <title>Related information</title>
+  </properties>
+  <body>
+  <section name="Related information">
+    <p>
+	If you are interested in the smtphandler project, then you might also be
+	interested in the following:
+    </p>
+
+    <subsection name="Email and logging">
+	    <ul>
+		    <li>Log4j: <a href="http://logging.apache.org/log4j/docs/api/org/apache/log4j/net/SMTPAppender.html">
+		    org.apache.log4j.net.SMTPAppender</a> 
+		    (<a href="http://cvs.apache.org/viewcvs.cgi/logging-log4j/src/java/org/apache/log4j/net/SMTPAppender.java?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">source</a>)</li>
+		    <li><a href="http://dev2dev.bea.com/pub/a/2004/05/soa_shriva.html">BEA's MailLogHandler</a></li>
+		    <li><a href="http://www.alphaworks.ibm.com/tech/eventalerter">IBM Event Alerter for Websphere</a></li>
+			<li>Avalon LogKit <a href="http://cvs.apache.org/viewcvs.cgi/avalon-logkit/src/java/org/apache/log/output/net/SMTPOutputLogTarget.java?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">
+			SMTPOutputLogTarget.java</a></li>
+			<li><a href="http://protomatter.sourceforge.net/latest/javadoc/com/protomatter/syslog/MailLog.html">
+			    com.protomatter.syslog.MailLog</a></li>
+	    </ul>
+    </subsection>
+
+    <subsection name="Logging libraries for Java">
+      <ul>
+      <li><a href="http://java.sun.com/j2se/1.5.0/docs/guide/logging/index.html">java.util.logging</a></li>
+      <li><a href="http://logging.apache.org/log4j/">log4j</a></li>
+      <li><a href="http://jakarta.apache.org/commons/logging/">Jakarta Commons Logging</a></li>
+      <li><a href="http://monolog.objectweb.org/">ObjectWeb Monolog</a></li>
+      <li><a href="http://jakarta.apache.org/taglibs/doc/log-doc/intro.html">Jakarta Log JSP tag library</a></li>
+      <li><a href="http://avalon.apache.org/logkit/">Avalon LogKit</a></li>
+      <li><a href="http://publib.boulder.ibm.com/infocenter/wsphelp/index.jsp?topic=/com.ibm.websphere.nd.doc/info/ae/ae/ctrb_jrasintro.html">IBM JRas</a></li>
+      <li><a href="http://www.alphaworks.ibm.com/tech/loggingtoolkit4j">IBM loggingtoolkit4j</a></li>
+      <li><a href="http://protomatter.sourceforge.net/latest/javadoc/com/protomatter/syslog/syslog-whitepaper.html">
+      		Protomatter Syslog</a></li>
+      <li><a href="http://www.acelet.com/super/SuperLogging/">SuperLogging</a></li>
+      <li><a href="http://www.jlea.de/">jLEA</a></li>
+      <li><a href="http://sourceforge.net/projects/jlogger-tool/">http://sourceforge.net/projects/jlogger-tool/</a></li>
+      <li><a href="http://javalogging.sourceforge.net/">Lumberjack</a></li>
+      <li><a href="http://alfj.sourceforge.net/">http://alfj.sourceforge.net/</a></li>
+      <li><a href="http://julog.sourceforge.net/">http://julog.sourceforge.net/</a></li>
+      <li><a href="http://sourceforge.net/projects/ln2/">http://sourceforge.net/projects/ln2/</a></li>
+      <li><a href="http://sourceforge.net/projects/jlo/">http://sourceforge.net/projects/jlo/</a></li>
+      <li><a href="http://ivjlogger.sourceforge.net/">http://ivjlogger.sourceforge.net/</a></li>
+      <li><a href="http://sourceforge.net/projects/jylog/">http://sourceforge.net/projects/jylog/</a></li>
+      <li><a href="http://just4log.sourceforge.net/">http://just4log.sourceforge.net/</a></li>
+      <li><a href="https://log-bridge.dev.java.net/">https://log-bridge.dev.java.net/</a></li>
+      <li><a href="http://www.gnu.org/software/classpath/home.html">GNU Classpath</a> implements java.util.logging</li>
+      </ul>
+    </subsection>
+
+    <subsection name="Mail">
+     <ul>
+     <li>SMTP specification: <a href="http://www.ietf.org/rfc/rfc2821.txt">RFC 2821</a></li>
+     <li><a href="http://java.sun.com/products/javamail/">JavaMail</a></li>
+     <li><a href="http://jakarta.apache.org/commons/net/">Jakarta Commons Net</a> (supports SMTP)</li>
+     <li><a href="http://james.apache.org/">James</a> mail server</li>
+     </ul>
+    </subsection>
+    
+    <subsection name="Articles">
+       <ul>
+       <li><a href="http://www.onjava.com/pub/a/onjava/2002/06/19/log.html">An introduction to the Java Logging API</a></li>
+       <li><a href="http://www.fawcette.com/javapro/2002_06/magazine/features/shalloway/">The Java Logging API</a></li>
+       <li><a href="http://www-106.ibm.com/developerworks/java/library/j-instlog/">Instant logging: Harness the power of log4j with Jabber</a></li>
+       <li><a href="http://www-106.ibm.com/developerworks/websphere/library/techarticles/0207_barcia/barcia.html">Developing an Asynchronous Logging Framework using log4j with JMS and Websphere MQ</a></li>
+       <li><a href="http://www-106.ibm.com/developerworks/websphere/techjournal/0306_vincent/vincent.html">Getting Started with JRas: Adding Trace and Message Logging to WebSphere Applications</a></li>
+       <li><a href="http://www.developer.com/java/other/article.php/10936_3109831_1">
+           Simplify your logging with AspectJ</a></li>
+       </ul>
+    </subsection>
+
+    <subsection name="Presentations about logging">
+       <ul>
+       <li><a href="http://www.apache.org/~ceki/TU07-2003-11-16.ppt">ApacheCon 2003</a></li>
+       <li><a href="http://servlet.java.sun.com/javaone/sf2003/conf/sessions/display-2148.en.jsp">JavaOne 2003</a></li>
+       <li><a href="http://www.pjug.org/logging072002.ppt">Logging in Java applications</a> (Portland Java User Group, July 2002)</li>
+       <li><a href="http://servlet.java.sun.com/javaone/sf2002/conf/sessions/display-1028.en.jsp">JavaOne 2002</a></li>
+       <li><a href="http://servlet.java.sun.com/javaone/conf/sessions/694/google-sf2001.jsp">JavaOne 2001</a></li>
+       <li><a href="http://servlet.java.sun.com/javaone/javaone2000/pdfs/TS-1325.pdf">JavaOne 2000</a></li>
+       </ul>
+    </subsection>
+    <subsection name="Books">
+       <ul>
+       <li><a href="http://www.amazon.com/exec/obidos/tg/detail/-/1590590996/">
+       			Logging in Java with the JDK 1.4 Logging API and Apache log4j</a></li>
+       <li><a href="https://www.qos.ch/shop/products/clm_t.jsp">The Complete log4j Manual</a></li>
+       <li><a href="http://www.oreilly.com/catalog/jakarta/toc.html">Programming Jakarta Struts
+            - chapter 15: "Logging in a Struts application"</a></li>
+       </ul>
+    </subsection>
+
+    <subsection name="Other">
+	    <ul>
+            <li><a href="http://logging.apache.org/">http://logging.apache.org/</a></li>
+  		    <li><a href="http://wiki.java.net/bin/view/Javapedia/Logging">http://wiki.java.net/bin/view/Javapedia/Logging</a></li>
+		    <li><a href="http://e-docs.bea.com/wls/docs81/logging/index.html">Logging in BEA Weblogic Server</a></li>
+		    <li><a href="http://www.python.org/doc/2.3.2/lib/node290.html">Python SMTPHandler</a></li>
+	    </ul>
+	    
+    </subsection>
+
+   </section>
+
+  </body>
+
+</document>

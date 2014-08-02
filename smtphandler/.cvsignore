@@ -1,0 +1,9 @@
+.packaging
+maven.log
+package-list
+packaging-build.xml
+velocity.log
+target
+bin
+build
+out

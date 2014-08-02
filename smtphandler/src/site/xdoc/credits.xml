@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- $Header: /cvsroot/smtphandler/smtphandler/src/site/xdoc/credits.xml,v 1.2 2008/08/20 17:07:57 sullis Exp $ -->
+<document>
+  <properties>
+     <title>Credits</title>
+  </properties>
+  <body>
+  <section name="Credits">
+    <p>
+    <ul>
+    <li>Sean C. Sullivan - founder of the SMTPHandler project</li>
+    <li>Alan Harder</li>
+    <li>Ceki Gulcu - author of log4j's 
+    <a href="http://logging.apache.org/log4j/docs/api/org/apache/log4j/net/SMTPAppender.html">SMTPAppender</a></li>
+    <li><a href="http://logging.apache.org/log4j/">log4j</a> team</li>
+    </ul>
+    </p>
+  
+   </section>
+  </body>
+</document>

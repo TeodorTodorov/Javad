@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- $Header: /cvsroot/smtphandler/smtphandler/src/site/site.xml,v 1.3 2008/10/05 08:38:59 sullis Exp $ -->
+<project name="smtphandler">
+  <body>
+    <links>
+      <item name="smtphandler" href="http://www.sourceforge.net/projects/smtphandler/" />
+    </links>
+
+    <menu name="smtphandler">
+      <item name="Home" href="/index.html"/>
+      <item name="Download" href="http://prdownloads.sourceforge.net/smtphandler/smtphandler-0.7.zip?download"/>
+      <item name="View source" href="xref/index.html"/>
+      <item name="Javadocs" href="apidocs/index.html"/>
+      <item name="Tools and libraries" href="/tools.html"/>
+      <item name="Credits" href="/credits.html"/>
+      <item name="Related" href="/related.html"/>
+      <item name="SourceForge" href="http://sourceforge.net/projects/smtphandler/"/>
+    </menu>
+
+    ${reports}
+
+  </body>
+</project>

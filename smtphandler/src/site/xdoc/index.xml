@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- $Header: /cvsroot/smtphandler/smtphandler/src/site/xdoc/index.xml,v 1.1 2006/05/13 01:24:45 sullis Exp $ -->
+<document>
+
+  <properties>
+    <title>Welcome</title>
+  </properties>
+
+  <body>
+
+  <section name="Overview">
+    <p>
+     SMTPHandler is a handler for the 
+     <a href="http://java.sun.com/j2se/1.5.0/docs/guide/logging/index.html">java.util.logging</a> library.  
+     The handler sends <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/logging/LogRecord.html">LogRecord</a>'s 
+     via email using the <a href="http://www.ietf.org/rfc/rfc2821.txt">Simple Mail Transfer Protocol</a>.
+    </p>
+    <p>
+	    This project is discussed in <a href="http://www.onjava.com/pub/a//onjava/2004/09/29/smtp-logging.html">
+		    "Reporting Application Errors by Email"</a>
+    </p>
+    <p>
+	    <img src="images/smtphandler-diagram.jpg" alt="SMTPHandler diagram"/>
+    </p>
+    <p>
+	    <img src="images/smtphandler-email-message.jpg" alt="SMTPHandler email message"/>
+    </p>
+  </section>
+  
+  <section name="SMTPHandler">
+    <p>
+    <ul>
+    <li><a href="/xref/smtphandler/SMTPHandler.html">source</a></li>
+    <li><a href="/apidocs/smtphandler/SMTPHandler.html">javadocs</a></li>
+    </ul>
+    </p>
+    <p>
+    The SMTPHandler code is derived from 
+    <a href="http://logging.apache.org/log4j/">log4j</a>'s 
+    <a href="http://logging.apache.org/log4j/docs/api/org/apache/log4j/net/SMTPAppender.html">SMTPAppender</a>.
+    </p>
+  </section>
+
+  <section name="Powered By">
+   <p>
+	   <a href="http://sourceforge.net">
+		   <img src="http://sourceforge.net/sflogo.php?group_id=75092&amp;type=1"
+			width="88" height="31" border="0" alt="SourceForge.net Logo"/></a>
+   </p>
+  </section>
+  </body>
+</document>
